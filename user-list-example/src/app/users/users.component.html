@@ -1,0 +1,6 @@
+<h2>{{title}}</h2>
+<ul class='users'>
+  <li *ngFor="let u of users">
+    <span class="badge">{{u.name.title}}</span> {{u.name.first}}  {{u.name.last}}
+  </li>
+</ul>
